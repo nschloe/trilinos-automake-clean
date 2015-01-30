@@ -2,7 +2,7 @@
 
 for dir in amesos aristos claps CTrilinos isorropia fei ForTrilinos mesquite \
   moertel moocho new_package pamgen phdmesh rythmos thyra ThreadPool \
-  trilinoscouplings TriKota WebTrilinos zoltan; do
+  trilinoscouplings TriKota WebTrilinos; do
   echo "Cleaning folder $dir from automake remainders..."
   rm -rf \
     $dir/aclocal.m4 \
